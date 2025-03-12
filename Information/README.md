@@ -29,7 +29,7 @@
 ## Database Schema
 
 ### **Tables and Attributes**
-- **Airline** (**AirlineId**, AirlineName, AddressStreet, AddressSuburb, AddressPostCode, AddressState, AddressCountry, ContactPhone, WebsiteAddress, 🟥Country_CountryId)
+- **Airline** (**AirlineId**, AirlineName, AddressStreet, AddressSuburb, AddressPostCode, AddressState, AddressCountry, ContactPhone, WebsiteAddress, 🟥**Country_CountryId**)
 - **Country** (**CountryId**, CountryName)
 - **Aircraft** (**AircraftId**, AircraftName, <span style="color:red">Airline_AirlineId</span>, <span style="color:red">AircraftModel_ModelId</span>, <span style="color:red">AircraftModel_Manufacturer_ManufacturerId</span>, <span style="color:red">Engine_EngineIdentifycationNo</span>)
 - **AircraftModel** (ModelId, ModelName, Manufacturer_ManufacturerId)
