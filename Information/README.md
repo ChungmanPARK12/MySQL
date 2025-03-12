@@ -31,7 +31,7 @@
 ### **Tables and Attributes**
 - **Airline** (**AirlineId**, AirlineName, AddressStreet, AddressSuburb, AddressPostCode, AddressState, AddressCountry, ContactPhone, WebsiteAddress, <span style="color:red">Country_CountryId</span>)
 - **Country** (**CountryId**, CountryName)
-- **Aircraft** (**AircraftId**, AircraftName, <span style="corlor:red">Airline_AirlineId, AircraftModel_ModelId, AircraftModel_Manufacturer_ManufacturerId, Engine_EngineIdentificationNo</span>)
+- **Aircraft** (**AircraftId**, AircraftName, <span style="color:red">Airline_AirlineId</span>, <span style="color:red">AircraftModel_ModelId</span>, <span style="color:red">AircraftModel_Manufacturer_ManufacturerId</span>, <span style="color:red">Engine_EngineIdentifycationNo</span>)
 - **AircraftModel** (ModelId, ModelName, Manufacturer_ManufacturerId)
 - **Technician** (EmployeeId, FirstName, LastName, LoginName, Salary, AddressState, AddressSuburb, AddressPostCode, Phone, Aircraft_AircraftId, Technician_EmployeeId, Training_TrainingId)
 - **SubModel** (SubModelId, SubModelName, SubModelDescription, Length, Height, WingSpanArea, MaxPayloadWeight, MaxCruisingSpeed, MaxRange, Aircraft_AircraftId, EngineModel_EngineModelId)
