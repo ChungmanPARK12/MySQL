@@ -6,3 +6,7 @@ Southern Airport Maintenence Service officiels decided that they need a new data
 # **Information Background**
 
 ## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/f3b58b0145c391f7cbb976a7ac3d53442f4261e1/Information)
+
+# **Logical Design**
+
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/f3b58b0145c391f7cbb976a7ac3d53442f4261e1/Information)
