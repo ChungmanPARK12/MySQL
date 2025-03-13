@@ -9,4 +9,4 @@ Southern Airport Maintenence Service officiels decided that they need a new data
 
 # **Logical Design**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/f3b58b0145c391f7cbb976a7ac3d53442f4261e1/Information)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/0d5a9dfa62ed96d8d8a31ead241538de37698886/LogicalDesign)
