@@ -54,10 +54,105 @@ To assign the **human_resources** role to a user and set it as their default rol
 -- Grant the human_resources role to user Jake
 GRANT 'human_resources' TO 'Jake'@'%';
 
--- Set the default role for Jake
+-- Set the default role for lake
 SET DEFAULT ROLE 'human_resources' TO 'Jake'@'%';
 
 -- Verify granted privileges
 SHOW GRANTS FOR 'Jake'@'%';
 ```
 ![Image](https://github.com/user-attachments/assets/6136e89f-9acc-48b1-98a4-2183db8dc1e6)
+
+## **6. Data Insertion SQL Statements**
+
+### **Airline**
+```sql
+INSERT INTO samsdb.airline (AirlineId, AirlineName, AddressStreet, AddressSuburb, AddressPostCode, AddressState, AddressCountry, ContactPhone, WebsiteAddress, Country_CountryId) 
+VALUES ('QF', 'Qantas', 'Colin', 'Findon', '5120', 'SA', 'Australia', '0411345678', 'www.qantas.com', NULL);
+
+INSERT INTO samsdb.airline (AirlineId, AirlineName, AddressStreet, AddressSuburb, AddressPostCode, AddressState, AddressCountry, ContactPhone, WebsiteAddress, Country_CountryId) 
+VALUES ('DS', 'Dagan', 'Henley', 'WestBeach', '5121', 'SA', 'Australia', '0422345678', 'www.dahan.com', NULL);
+```
+
+### **Country**
+```sql
+INSERT INTO samsdb.country (CountryID, CountryName) VALUES (1, 'Australia');
+INSERT INTO samsdb.country (CountryID, CountryName) VALUES (2, 'Singapore');
+```
+
+### **Aircraft**
+```sql
+INSERT INTO samsdb.aircraft (AircraftId, AircraftName, Airline_AirlineId, AircraftModel_ModelId, AircraftModel_Manufacturer_ManufacturerId, Engine_EngineIdentificationNo) 
+VALUES (737, 'A737', NULL, NULL, NULL, NULL);
+
+INSERT INTO samsdb.aircraft (AircraftId, AircraftName, Airline_AirlineId, AircraftModel_ModelId, AircraftModel_Manufacturer_ManufacturerId, Engine_EngineIdentificationNo) 
+VALUES (738, 'A738', NULL, NULL, NULL, NULL);
+```
+
+### **AircraftModel**
+```sql
+INSERT INTO samsdb.aircraftmodel (ModelId, ModelName, Manufacturer_ManufacturerId) VALUES ('M1', 'MA737', NULL);
+INSERT INTO samsdb.aircraftmodel (ModelId, ModelName, Manufacturer_ManufacturerId) VALUES ('M2', 'MA738', NULL);
+```
+
+### **Submodel**
+```sql
+INSERT INTO samsdb.submodel (SubModelId, SubModelName, SubModelDescription, Length, Height, WingSpanArea, MaxPayloadWeight, MaxCruisingSpeed, MaxRange, Aircraft_AircraftId, EngineModel_EngineModelId) 
+VALUES ('SM737A', 'ABA-Flight', 'Flight to Australia', 45.5, 12.5, 35.9, 1000.00, 850, 6110, NULL, NULL);
+
+INSERT INTO samsdb.submodel (SubModelId, SubModelName, SubModelDescription, Length, Height, WingSpanArea, MaxPayloadWeight, MaxCruisingSpeed, MaxRange, Aircraft_AircraftId, EngineModel_EngineModelId) 
+VALUES ('SM738A', 'SSA-Flight', 'Flight to Singapore', 50.5, 15.5, 29.9, 1010.00, 750, 6000, NULL, NULL);
+```
+
+### **Technician**
+```sql
+INSERT INTO samsdb.technician (EmployeeId, FirstName, LastName, LoginName, Salary, AddressState, AddressSuburb, AddressPostCode, Phone, Aircraft_AircraftId, Technician_EmployeeId, Training_TrainingId) 
+VALUES (1, 'Boseong', 'Kim', 'Kim', 1200.00, 'SA', 'Adelaide', '5120', '0011345345', NULL, NULL, NULL);
+
+INSERT INTO samsdb.technician (EmployeeId, FirstName, LastName, LoginName, Salary, AddressState, AddressSuburb, AddressPostCode, Phone, Aircraft_AircraftId, Technician_EmployeeId, Training_TrainingId) 
+VALUES (2, 'Melissa', 'Smith', 'Smith', 1100.00, 'SA', 'Adelaide', '5120', '0111345345', NULL, NULL, NULL);
+```
+
+### **Manager**
+```sql
+INSERT INTO samsdb.manager (ManagerId, FirstName, LastName, LoginName, Salary, Technician_EmployeeId) 
+VALUES (1, 'Monson', 'Kim', 'Kim', 1200, NULL);
+
+INSERT INTO samsdb.manager (ManagerId, FirstName, LastName, LoginName, Salary, Technician_EmployeeId) 
+VALUES (2, 'Heachan', 'Lee', 'Lee', 1200, NULL);
+```
+
+### **Training**
+```sql
+INSERT INTO samsdb.training (TrainingID, TrainingName, TrainingDate) 
+VALUES (1, 'EngineTraining', '2022-01-01');
+
+INSERT INTO samsdb.training (TrainingID, TrainingName, TrainingDate) 
+VALUES (2, 'WingTraining', '2022-01-02');
+```
+
+### **Engine**
+```sql
+INSERT INTO samsdb.engine (EngineIdentificationNo, Manufacturer_ManufacturerId) 
+VALUES (11, NULL);
+
+INSERT INTO samsdb.engine (EngineIdentificationNo, Manufacturer_ManufacturerId) 
+VALUES (12, NULL);
+```
+
+### **EngineModel**
+```sql
+INSERT INTO samsdb.enginemodel (EngineModelId, EngineModelName, MadeBy, ThrustRange, DryWeight) 
+VALUES (1, 'CMD-12', 'Korea', 12.5, 50.00);
+
+INSERT INTO samsdb.enginemodel (EngineModelId, EngineModelName, MadeBy, ThrustRange, DryWeight) 
+VALUES (2, 'CMD-11', 'Australia', 13.5, 60.00);
+```
+
+### **Manufacturer**
+```sql
+INSERT INTO samsdb.manufacturer (ManufacturerId, ManufacturerName) 
+VALUES (1, 'PCI');
+
+INSERT INTO samsdb.manufacturer (ManufacturerId, ManufacturerName) 
+VALUES (2, 'Pfizer');
+```
