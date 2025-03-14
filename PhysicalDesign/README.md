@@ -44,9 +44,9 @@ GRANT ALL PRIVILEGES ON samsdb.TechnicianTrainingAircraftModel TO 'human_resourc
 
 -- Verify granted privileges
 SHOW GRANTS FOR 'human_resources'@'%';
-
-![Image](https://github.com/user-attachments/assets/e4473aa2-57eb-403b-a65a-87341243f557)
 ```
+![Image](https://github.com/user-attachments/assets/e4473aa2-57eb-403b-a65a-87341243f557)
+
 
 ### **Granting Roles to Users and Setting Default Roles**
 To assign the **human_resources** role to a user and set it as their default role, use the following SQL statements:
