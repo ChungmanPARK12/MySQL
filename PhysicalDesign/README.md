@@ -73,18 +73,18 @@ VALUES (
   AES_ENCRYPT('2023-02-01', 'encryption_key')
 );
 ```
-![Image](https://github.com/user-attachments/assets/1d710d6a-7ed3-4907-a414-bc0b9000988d)
+![Image](https://github.com/user-attachments/assets/9a527399-e2db-4357-bb2e-a69e5464bb49)
 ```sql
 INSERT INTO EncryptedTestEvent (id, eventId, technicianId, eventDate, result)
 VALUES (
   1,
   789,
   123,
-  '2023-03-15',
+  AES_ENCRYPT('2023-03-15', 'encryption_key'),
   AES_ENCRYPT('Passed', 'encryption_key')
 );
 ```
-![Image](https://github.com/user-attachments/assets/a03d25b3-3a10-4042-b344-a0a73a159d81)
+![Image](https://github.com/user-attachments/assets/93d28e20-0e73-4cb5-aed0-3482d3ca4c1e)
 
 ## **Data Insertion SQL Statements**
 
