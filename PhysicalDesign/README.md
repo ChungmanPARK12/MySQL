@@ -45,9 +45,8 @@ GRANT ALL PRIVILEGES ON samsdb.TechnicianTrainingAircraftModel TO 'human_resourc
 -- Verify granted privileges
 SHOW GRANTS FOR 'human_resources'@'%';
 ```
-**––––––––––––––––––––––**
 ![Image](https://github.com/user-attachments/assets/e4473aa2-57eb-403b-a65a-87341243f557)
-**––––––––––––––––––––––**
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––**
 
 
 ### **Granting Roles to Users and Setting Default Roles**
@@ -64,6 +63,7 @@ SET DEFAULT ROLE 'human_resources' TO 'Jake'@'%';
 SHOW GRANTS FOR 'Jake'@'%';
 ```
 ![Image](https://github.com/user-attachments/assets/6136e89f-9acc-48b1-98a4-2183db8dc1e6)
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––**
 
 ### **Inserting Encrypted Data**
 ```sql
@@ -77,6 +77,7 @@ VALUES (
 );
 ```
 ![Image](https://github.com/user-attachments/assets/9a527399-e2db-4357-bb2e-a69e5464bb49)
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––**
 ```sql
 INSERT INTO EncryptedTestEvent (id, eventId, technicianId, eventDate, result)
 VALUES (
@@ -88,7 +89,7 @@ VALUES (
 );
 ```
 ![Image](https://github.com/user-attachments/assets/93d28e20-0e73-4cb5-aed0-3482d3ca4c1e)
-
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––**
 ### **Decrypting Data for Reading**
 To retrieve and decrypt the encrypted data:
 ```sql
