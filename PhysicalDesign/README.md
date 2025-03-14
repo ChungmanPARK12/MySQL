@@ -62,7 +62,31 @@ SHOW GRANTS FOR 'Jake'@'%';
 ```
 ![Image](https://github.com/user-attachments/assets/6136e89f-9acc-48b1-98a4-2183db8dc1e6)
 
-## **6. Data Insertion SQL Statements**
+### **Inserting Encrypted Data**
+```sql
+INSERT INTO EncryptedTechnicianAircraftModelTraining (id, technicianId, aircraftModelId, trainingStartDate, trainingEndDate)
+VALUES (
+  1,
+  123,
+  456,
+  AES_ENCRYPT('2023-01-01', 'encryption_key'),
+  AES_ENCRYPT('2023-02-01', 'encryption_key')
+);
+```
+![Image](https://github.com/user-attachments/assets/1d710d6a-7ed3-4907-a414-bc0b9000988d)
+```sql
+INSERT INTO EncryptedTestEvent (id, eventId, technicianId, eventDate, result)
+VALUES (
+  1,
+  789,
+  123,
+  '2023-03-15',
+  AES_ENCRYPT('Passed', 'encryption_key')
+);
+```
+![Image](https://github.com/user-attachments/assets/a03d25b3-3a10-4042-b344-a0a73a159d81)
+
+## **Data Insertion SQL Statements**
 
 ### **Airline**
 ```sql
