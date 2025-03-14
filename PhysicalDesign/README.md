@@ -44,8 +44,9 @@ GRANT ALL PRIVILEGES ON samsdb.TechnicianTrainingAircraftModel TO 'human_resourc
 
 -- Verify granted privileges
 SHOW GRANTS FOR 'human_resources'@'%';
-```
+
 ![Image](https://github.com/user-attachments/assets/e4473aa2-57eb-403b-a65a-87341243f557)
+```
 
 ### **Granting Roles to Users and Setting Default Roles**
 To assign the **human_resources** role to a user and set it as their default role, use the following SQL statements:
@@ -85,6 +86,27 @@ VALUES (
 );
 ```
 ![Image](https://github.com/user-attachments/assets/93d28e20-0e73-4cb5-aed0-3482d3ca4c1e)
+
+### **Decrypting Data for Reading**
+To retrieve and decrypt the encrypted data:
+```sql
+SELECT 
+  id,
+  technicianId,
+  aircraftModelId,
+  CAST(AES_DECRYPT(trainingStartDate, 'encryption_key') AS CHAR) AS trainingStartDate,
+  CAST(AES_DECRYPT(trainingEndDate, 'encryption_key') AS CHAR) AS trainingEndDate
+FROM EncryptedTechnicianAircraftModelTraining;
+```
+```sql
+SELECT 
+  id,
+  eventId,
+  technicianId,
+  eventDate,
+  CAST(AES_DECRYPT(result, 'encryption_key') AS CHAR) AS result
+FROM EncryptedTestEvent;
+```
 
 ## **Data Insertion SQL Statements**
 
