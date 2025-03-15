@@ -46,8 +46,7 @@ GRANT ALL PRIVILEGES ON samsdb.TechnicianTrainingAircraftModel TO 'human_resourc
 SHOW GRANTS FOR 'human_resources'@'%';
 ```
 ![Image](https://github.com/user-attachments/assets/e4473aa2-57eb-403b-a65a-87341243f557)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––**
-
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
 
 ### **Granting Roles to Users and Setting Default Roles**
 To assign the **human_resources** role to a user and set it as their default role, use the following SQL statements:
@@ -63,7 +62,7 @@ SET DEFAULT ROLE 'human_resources' TO 'Jake'@'%';
 SHOW GRANTS FOR 'Jake'@'%';
 ```
 ![Image](https://github.com/user-attachments/assets/6136e89f-9acc-48b1-98a4-2183db8dc1e6)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––**
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
 
 ### **Inserting Encrypted Data**
 ```sql
@@ -77,7 +76,7 @@ VALUES (
 );
 ```
 ![Image](https://github.com/user-attachments/assets/9a527399-e2db-4357-bb2e-a69e5464bb49)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––**
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
 ```sql
 INSERT INTO EncryptedTestEvent (id, eventId, technicianId, eventDate, result)
 VALUES (
@@ -89,7 +88,8 @@ VALUES (
 );
 ```
 ![Image](https://github.com/user-attachments/assets/93d28e20-0e73-4cb5-aed0-3482d3ca4c1e)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––**
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
+
 ### **Decrypting Data for Reading**
 To retrieve and decrypt the encrypted data:
 ```sql
@@ -101,15 +101,20 @@ SELECT
   CAST(AES_DECRYPT(trainingEndDate, 'encryption_key') AS CHAR) AS trainingEndDate
 FROM EncryptedTechnicianAircraftModelTraining;
 ```
+![Image](https://github.com/user-attachments/assets/6ae5775d-1fb3-4412-875e-a2482fa695cd)
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
 ```sql
 SELECT 
   id,
   eventId,
   technicianId,
   eventDate,
+  CAST(AES_DECRYPT(eventDate, 'encryption_key') AS CHAR) AS eventDate,
   CAST(AES_DECRYPT(result, 'encryption_key') AS CHAR) AS result
 FROM EncryptedTestEvent;
 ```
+![Image](https://github.com/user-attachments/assets/e39a2dd8-9036-47fa-a095-f9c1d974f5ff)
+**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
 
 ## **Data Insertion SQL Statements**
 
