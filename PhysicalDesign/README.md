@@ -46,7 +46,7 @@ GRANT ALL PRIVILEGES ON samsdb.TechnicianTrainingAircraftModel TO 'human_resourc
 SHOW GRANTS FOR 'human_resources'@'%';
 ```
 ![Image](https://github.com/user-attachments/assets/e4473aa2-57eb-403b-a65a-87341243f557)
----
+<hr style="border: 3px solid black;">
 
 ### **Granting Roles to Users and Setting Default Roles**
 To assign the **human_resources** role to a user and set it as their default role, use the following SQL statements:
@@ -76,7 +76,8 @@ VALUES (
 );
 ```
 ![Image](https://github.com/user-attachments/assets/9a527399-e2db-4357-bb2e-a69e5464bb49)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
+<hr style="border: 3px solid black;">
+
 ```sql
 INSERT INTO EncryptedTestEvent (id, eventId, technicianId, eventDate, result)
 VALUES (
@@ -88,7 +89,7 @@ VALUES (
 );
 ```
 ![Image](https://github.com/user-attachments/assets/93d28e20-0e73-4cb5-aed0-3482d3ca4c1e)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
+<hr style="border: 3px solid black;">
 
 ### **Decrypting Data for Reading**
 To retrieve and decrypt the encrypted data:
@@ -102,7 +103,8 @@ SELECT
 FROM EncryptedTechnicianAircraftModelTraining;
 ```
 ![Image](https://github.com/user-attachments/assets/6ae5775d-1fb3-4412-875e-a2482fa695cd)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
+<hr style="border: 3px solid black;">
+
 ```sql
 SELECT 
   id,
@@ -114,7 +116,7 @@ SELECT
 FROM EncryptedTestEvent;
 ```
 ![Image](https://github.com/user-attachments/assets/e39a2dd8-9036-47fa-a095-f9c1d974f5ff)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
+<hr style="border: 3px solid black;">
 
 ## **Data Insertion SQL Statements**
 
