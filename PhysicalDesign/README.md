@@ -95,9 +95,9 @@ VALUES (
 To retrieve and decrypt the encrypted data:
 ```sql
 SELECT 
-  id,
-  technicianId,
-  aircraftModelId,
+  1,
+  123,
+  456,
   CAST(AES_DECRYPT(trainingStartDate, 'encryption_key') AS CHAR) AS trainingStartDate,
   CAST(AES_DECRYPT(trainingEndDate, 'encryption_key') AS CHAR) AS trainingEndDate
 FROM EncryptedTechnicianAircraftModelTraining;
@@ -107,10 +107,9 @@ FROM EncryptedTechnicianAircraftModelTraining;
 
 ```sql
 SELECT 
-  id,
-  eventId,
-  technicianId,
-  eventDate,
+  1,
+  789,
+  123,
   CAST(AES_DECRYPT(eventDate, 'encryption_key') AS CHAR) AS eventDate,
   CAST(AES_DECRYPT(result, 'encryption_key') AS CHAR) AS result
 FROM EncryptedTestEvent;
