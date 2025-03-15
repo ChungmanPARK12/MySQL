@@ -62,7 +62,7 @@ SET DEFAULT ROLE 'human_resources' TO 'Jake'@'%';
 SHOW GRANTS FOR 'Jake'@'%';
 ```
 ![Image](https://github.com/user-attachments/assets/6136e89f-9acc-48b1-98a4-2183db8dc1e6)
-**––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––--------------------**
+<hr style="border: 3px solid black;">
 
 ### **Inserting Encrypted Data**
 ```sql
