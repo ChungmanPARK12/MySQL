@@ -20,5 +20,29 @@ Southern Airport Maintenence Service officiels decided that they need a new data
 
 ## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
 
-# **Oracle Database: Inserting Airport System Data**
+# **Oracle Object-Relational Database: Aircraft System**
 ![Image](https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086)
+---
+
+### **Aircraft Submodel and Airline Relationship**
+
+- **A Submodel** is a type of **Model**. (_Abstract Class_)
+- **Passenger Submodel** is a type of **Submodel**.
+- **Cargo Submodel** is a type of **Submodel**.
+- Each **Aircraft** may belong to **either** a **Passenger Submodel** or a **Cargo Submodel**.
+- Each **Airline** may have **0, 1, or many Aircraft**.
+- Each **Aircraft** must belong to **one and only one Airline**.
+
+![Image](https://github.com/user-attachments/assets/6c9b7ab2-7d17-4f6d-b869-a412fcdda905)
+---
+
+# **Create Object types**
+
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
+
+# **Create Tables**
+
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
+
+
+
