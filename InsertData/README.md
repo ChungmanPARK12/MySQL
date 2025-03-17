@@ -24,18 +24,19 @@ INSERT INTO airline_table VALUES ('AR01', 'Airline 1');
 INSERT INTO airline_table VALUES ('AR02', 'Airline 2');
 INSERT INTO airline_table VALUES ('AR03', 'Airline 3');
 
--- Inserting Models
+-- Inserting Models (ModelName, Manufacture)
 INSERT INTO model_table VALUES ('737', 'Boeing');
 INSERT INTO model_table VALUES ('747', 'Boeing');
 
--- Inserting Cargo Submodels
+-- Inserting Cargo Submodels (ModelName, Manufacture, SubModelName, MaxTakeOffWeight, CruisingRange, WingSpan, Height, MaxCargoWeight)
 INSERT INTO cargosubmodel_table VALUES ('737', 'Boeing', 'LightCargo', 5000, 500, 75, 40, 4200);
 INSERT INTO cargosubmodel_table VALUES ('767', 'Boeing', 'MedCargo', 8000, 500, 75, 40, 7200);
 INSERT INTO cargosubmodel_table VALUES ('747', 'Boeing', 'HeavyCargo', 11000, 500, 75, 40, 10200);
 
--- Inserting Passenger Submodels
+-- Inserting Passenger Submodels (ModelName, Manufacture, SubModelName, MaxTakeOffWeight, CruisingRange, WingSpan, Height, MaxNoOfPassengers)
 INSERT INTO passengersubmodel_table VALUES ('737', 'Boeing', 'LightPass', 5000, 500, 75, 40, 200);
 INSERT INTO passengersubmodel_table VALUES ('767', 'Boeing', 'MedPass', 8000, 500, 75, 40, 350);
 INSERT INTO passengersubmodel_table VALUES ('747', 'Boeing', 'HeavyPass', 11000, 500, 75, 40, 700);
+
 
 ```
