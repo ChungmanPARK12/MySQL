@@ -6,19 +6,19 @@ Southern Airport Maintenence Service officiels decided that they need a new data
 
 # **Information Background**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/352f56929ac059f9c36b1fcfa0bc9d0903a3d7ff/Information)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/Information)
 
 # **Logical Design**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/0d5a9dfa62ed96d8d8a31ead241538de37698886/LogicalDesign)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/LogicalDesign)
 
 # **Physical Design**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/PhysicalDesign)
 
 # **Backup**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/Backup)
 
 # **Oracle Object-Relational Database: Aircraft System**
 ![Image](https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086)
@@ -38,19 +38,19 @@ Southern Airport Maintenence Service officiels decided that they need a new data
 
 # **Create Object types**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/CreateObject)
 
-# **Create Tables**
+# **Create Table**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/CreateTable)
 
 # **Assign Primary & Foreign Keys**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/AssignKey)
 
 # **Data Insertion**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/496ed45741d3891710f06c55d7b66bd7fb23f0fc/PhysicalDesign)
+## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/InsertData)
 
 
 
