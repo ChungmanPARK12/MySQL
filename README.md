@@ -1,56 +1,66 @@
-# **Souththen Airport Maintenance Service Database Project**
+# **Southern Airport Maintenance Service Database Project**
 ![Image](https://github.com/user-attachments/assets/598fa6ce-f6e5-41dc-87b6-0d19b829cbe4)
+
 ### **Project Overview**
-Southern Airport Maintenence Service officials decided that they need a new database to manage the information of aircrafts, technicians and the aircraft maintenance services. The existing database does not meet the requirements of the aircraft maintenence services. You are working with IT works as the database administrator. IT Works got the contact to develop the new database.
+Southern Airport Maintenance Service officials decided they need a new database to manage information about aircrafts, technicians, and maintenance services. The existing system no longer meets their needs.  
+You are working as a **Database Administrator** with **IT Works**, the company contracted to build the new system.
+
+## **Information Background**
+
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/Information)
+
+## **Logical Design**
+
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/LogicalDesign)
+
+## **Physical Design**
+
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/PhysicalDesign)
 
 
-# **Information Background**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/Information)
+## **Backup**
 
-# **Logical Design**
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/Backup)
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/LogicalDesign)
 
-# **Physical Design**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/PhysicalDesign)
-
-# **Backup**
-
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/Backup)
-
-# **Oracle Object-Relational Database: Aircraft System**
+### **Oracle Object-Relational Database: Aircraft System**
 ![Image](https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086)
----
 
-### **Aircraft Submodel and Airline Relationship**
-
+## **Aircraft Submodel and Airline Relationship**
 - **A Submodel** is a type of **Model**. (_Abstract Class_)
-- **Passenger Submodel** is a type of **Submodel**.
-- **Cargo Submodel** is a type of **Submodel**.
-- Each **Aircraft** may belong to **either** a **Passenger Submodel** or a **Cargo Submodel**.
+- **Passenger Submodel** and **Cargo Submodel** inherit from **Submodel**.
+- Each **Aircraft** belongs to either a **Passenger** or **Cargo Submodel**.
 - Each **Airline** may have **0, 1, or many Aircraft**.
 - Each **Aircraft** must belong to **one and only one Airline**.
 
 ![Image](https://github.com/user-attachments/assets/6c9b7ab2-7d17-4f6d-b869-a412fcdda905)
----
 
-# **Create Object types**
+## **Create Object Types**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/CreateObject)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/CreateObject)
 
-# **Create Table**
+## **Create Tables**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/CreateTable)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/CreateTable)
 
-# **Assign Primary & Foreign Keys**
+## **Assign Primary & Foreign Keys**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/AssignKey)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/AssignKey)
 
-# **Data Insertion**
+## **Data Insertion**
 
-## Link to [Click here](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/InsertData)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/InsertData)
+ 
+# **Project Summary**
 
+This project presents a complete database solution for Southern Airport Maintenance Service using both **MySQL** and **Oracle**.
 
+- **MySQL**: Covers logical/physical design, backups, and data insertion.
+- **Oracle**: Demonstrates object-relational design with custom object types and relationships.
 
+It highlights my skills in building structured, scalable databases using both relational and object-oriented approaches.
+
+## Thank you
+Thank you for visiting my github :)
