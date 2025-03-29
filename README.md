@@ -5,19 +5,19 @@
 Southern Airport Maintenance Service officials decided they need a new database to manage information about aircrafts, technicians, and maintenance services. The existing system no longer meets their needs.  
 You are working as a **Database Administrator** with **IT Works**, the company contracted to build the new system.
 
-### **Information Background**
+### 1. Information Background
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Information)
 
-### **Logical Design**
+### 2. Logical Design
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/LogicalDesign)
 
-### **Physical Design**
+### 3. Physical Design
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/PhysicalDesign)
 
-### **Backup**
+### 4. Backup
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Backup)
 
@@ -35,19 +35,19 @@ You are working as a **Database Administrator** with **IT Works**, the company c
 
 ![Image](https://github.com/user-attachments/assets/6c9b7ab2-7d17-4f6d-b869-a412fcdda905)
 
-### **Create Object Types**
+### 1. Create Object Types
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateObject)
 
-### **Create Tables**
+### 2. Create Tables
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateTable)
 
-### **Assign Primary & Foreign Keys**
+### 3. Assign Primary & Foreign Keys
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/AssignKey)
 
-### **Data Insertion**
+### 4. Data Insertion
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/InsertData)
  
