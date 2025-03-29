@@ -7,23 +7,19 @@ You are working as a **Database Administrator** with **IT Works**, the company c
 
 ## **Information Background**
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/Information)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Information)
 
 ## **Logical Design**
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/LogicalDesign)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/LogicalDesign)
 
 ## **Physical Design**
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/PhysicalDesign)
-
-
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/PhysicalDesign)
 
 ## **Backup**
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/MySQL/Backup)
-
-
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Backup)
 
 ### **Oracle Object-Relational Database: Aircraft System**
 ![Image](https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086)
@@ -39,21 +35,21 @@ You are working as a **Database Administrator** with **IT Works**, the company c
 
 ## **Create Object Types**
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/CreateObject)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateObject)
 
 ## **Create Tables**
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/CreateTable)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateTable)
 
 ## **Assign Primary & Foreign Keys**
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/AssignKey)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/AssignKey)
 
 ## **Data Insertion**
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/98b3895fc0a0216252705f6f4ef49cde54c72c9b/Oracle/InsertData)
+ - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/InsertData)
  
-# **Project Summary**
+## **Project Summary**
 
 This project presents a complete database solution for Southern Airport Maintenance Service using both **MySQL** and **Oracle**.
 
