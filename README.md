@@ -1,30 +1,32 @@
 # **Southern Airport Maintenance Service Database Project**
 ![Image](https://github.com/user-attachments/assets/598fa6ce-f6e5-41dc-87b6-0d19b829cbe4)
 
-### **Project Overview**
+## **Project Overview**
 Southern Airport Maintenance Service officials decided they need a new database to manage information about aircrafts, technicians, and maintenance services. The existing system no longer meets their needs.  
 You are working as a **Database Administrator** with **IT Works**, the company contracted to build the new system.
 
-## **Information Background**
+### **Information Background**
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Information)
 
-## **Logical Design**
+### **Logical Design**
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/LogicalDesign)
 
-## **Physical Design**
+### **Physical Design**
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/PhysicalDesign)
 
-## **Backup**
+### **Backup**
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Backup)
 
-### **Oracle Object-Relational Database: Aircraft System**
+---
+
+## **Oracle Object-Relational Database: Aircraft System**
 ![Image](https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086)
 
-## **Aircraft Submodel and Airline Relationship**
+### **Aircraft Submodel and Airline Relationship**
 - **A Submodel** is a type of **Model**. (_Abstract Class_)
 - **Passenger Submodel** and **Cargo Submodel** inherit from **Submodel**.
 - Each **Aircraft** belongs to either a **Passenger** or **Cargo Submodel**.
@@ -33,19 +35,19 @@ You are working as a **Database Administrator** with **IT Works**, the company c
 
 ![Image](https://github.com/user-attachments/assets/6c9b7ab2-7d17-4f6d-b869-a412fcdda905)
 
-## **Create Object Types**
+### **Create Object Types**
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateObject)
 
-## **Create Tables**
+### **Create Tables**
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateTable)
 
-## **Assign Primary & Foreign Keys**
+### **Assign Primary & Foreign Keys**
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/AssignKey)
 
-## **Data Insertion**
+### **Data Insertion**
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/InsertData)
  
@@ -58,5 +60,5 @@ This project presents a complete database solution for Southern Airport Maintena
 
 It highlights my skills in building structured, scalable databases using both relational and object-oriented approaches.
 
-## Thank you
+### Thank you
 Thank you for visiting my github :)
