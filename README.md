@@ -24,13 +24,13 @@ The project focuses on understanding and applying the **core stages of database 
 
 ### 1. Information Background
 
-This section summarises the **database requirements**, including key entities, attributes, and business rules, which provide the basis for the logical and physical design stages.
+The database requirements are outlined here, key entities, attributes, and business rules that guide the logical and physical design process.
 
  - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Information)
 
 ### 2. Logical Design
 
-This section presents the **Entity Relationship Diagram (ERD)**, illustrating the logical structure of the database and the relationships between entities based on the defined business rules.
+The **Entity Relationship Diagram (ERD)**, visualises the logical structure of the database and the relationships between entities.
 
  - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/LogicalDesign)
 
@@ -42,7 +42,7 @@ This section covers the **physical implementation** of the database, including i
 
 ### 4. Backup
 
-This section demonstrates **logical backup and recovery** of the MySQL database using both **MySQL Workbench** and **command-line tools**.
+Demonstrates **logical backup and recovery** of the MySQL database using both **MySQL Workbench** and **command-line tools**.
 
  - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Backup)
 
@@ -68,25 +68,25 @@ This section demonstrates **logical backup and recovery** of the MySQL database 
 
 ### 1. Create Object Types
 
-This section defines **Oracle object types** to model the system using object-relational features such as inheritance, subtypes, and references.
+**Oracle object types** are used to model the system with inheritance, subtypes, and references.
 
  - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateObject)
 
 ### 2. Create Tables
 
-This section creates **object tables** in Oracle based on the defined object types and contrasts Oracle’s object-relational model with MySQL’s relational approach.
+Object tables are created in Oracle based on the defined object types.
 
  - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateTable)
 
 ### 3. Assign Primary & Foreign Keys
 
-This section defines **primary and foreign key constraints** to enforce entity integrity and relationships between Oracle object tables.
+Defines **primary and foreign key constraints** to enforce entity integrity and relationships between Oracle object tables.
 
  - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/AssignKey)
 
 ### 4. Data Insertion
 
-This section demonstrates **data insertion** into Oracle object-relational tables while preserving primary and foreign key integrity.
+Demonstrates **data insertion** into Oracle object-relational tables while preserving primary and foreign key integrity.
 
 
  - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/InsertData)
