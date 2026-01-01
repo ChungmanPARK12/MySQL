@@ -20,25 +20,25 @@ Rather than building an application layer, the emphasis of this project is on **
 
 This section summarises the **database requirements**, including key entities, attributes, and business rules, which provide the basis for the logical and physical design stages.
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Information)
+ - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Information)
 
 ### 2. Logical Design
 
 This section presents the **Entity Relationship Diagram (ERD)**, illustrating the logical structure of the database and the relationships between entities based on the defined business rules.
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/LogicalDesign)
+ - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/LogicalDesign)
 
 ### 3. Physical Design
 
 This section covers the **physical implementation** of the database, including indexing, user access control, data encryption, and data insertion using MySQL.
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/PhysicalDesign)
+ - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/PhysicalDesign)
 
 ### 4. Backup
 
 This section demonstrates **logical backup and recovery** of the MySQL database using both **MySQL Workbench** and **command-line tools**.
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Backup)
+ - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Backup)
 
 ---
 
@@ -58,26 +58,26 @@ This section demonstrates **logical backup and recovery** of the MySQL database 
 
 This section defines **Oracle object types** to model the system using object-relational features such as inheritance, subtypes, and references.
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateObject)
+ - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateObject)
 
 ### 2. Create Tables
 
 This section creates **object tables** in Oracle based on the defined object types and contrasts Oracle’s object-relational model with MySQL’s relational approach.
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateTable)
+ - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateTable)
 
 ### 3. Assign Primary & Foreign Keys
 
 This section defines **primary and foreign key constraints** to enforce entity integrity and relationships between Oracle object tables.
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/AssignKey)
+ - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/AssignKey)
 
 ### 4. Data Insertion
 
 This section demonstrates **data insertion** into Oracle object-relational tables while preserving primary and foreign key integrity.
 
 
- - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/InsertData)
+ - [View result](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/InsertData)
  
 ## **Project Summary**
 
