@@ -3,7 +3,7 @@
 <p align="center">
   <img 
     src="https://github.com/user-attachments/assets/598fa6ce-f6e5-41dc-87b6-0d19b829cbe4"
-    width="700"
+    width="400"
     height="auto"
   />
 </p>
@@ -52,7 +52,7 @@ This section demonstrates **logical backup and recovery** of the MySQL database 
 <p align="center">
   <img 
     src="https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086"
-    width="700"
+    width="400"
     height="auto"
   />
 </p>
