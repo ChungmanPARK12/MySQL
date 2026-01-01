@@ -2,22 +2,43 @@
 ![Image](https://github.com/user-attachments/assets/598fa6ce-f6e5-41dc-87b6-0d19b829cbe4)
 
 ## **Project Overview**
-Southern Airport Maintenance Service officials decided they need a new database to manage information about aircrafts, technicians, and maintenance services. The existing system no longer meets their needs.  
-You are working as a **Database Administrator** with **IT Works**, the company contracted to build the new system.
+
+This project was completed as part of a database design and implementation assignment.  
+The objective was to design a **MySQL relational database** for a fictional organisation, *Southern Airport Maintenance Service*, to manage information related to **aircraft**, **technicians**, and **maintenance activities**.
+
+The project focuses on understanding and applying the **core stages of database development**, including:
+
+- Analysing system requirements  
+- Designing a logical data model (ERD)  
+- Translating the logical model into a physical database schema  
+- Implementing tables and relationships using MySQL  
+- Preparing a basic backup strategy  
+
+Rather than building an application layer, the emphasis of this project is on **database structure, data integrity, and clear documentation**, demonstrating foundational database design principles in a structured and incremental way.
 
 ### 1. Information Background
+
+This section summarises the **database requirements**, including key entities, attributes, and business rules, which provide the basis for the logical and physical design stages.
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Information)
 
 ### 2. Logical Design
 
+This section presents the **Entity Relationship Diagram (ERD)**, illustrating the logical structure of the database and the relationships between entities based on the defined business rules.
+
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/LogicalDesign)
 
 ### 3. Physical Design
 
+This section covers the **physical implementation** of the database, including indexing, user access control, data encryption, and data insertion using MySQL.
+
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/PhysicalDesign)
 
 ### 4. Backup
+
+### 4. Backup
+
+This section demonstrates **logical backup and recovery** of the MySQL database using both **MySQL Workbench** and **command-line tools**.
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Backup)
 
