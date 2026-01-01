@@ -1,5 +1,13 @@
 # **Southern Airport Maintenance Service Database Project**
-![Image](https://github.com/user-attachments/assets/598fa6ce-f6e5-41dc-87b6-0d19b829cbe4)
+
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/598fa6ce-f6e5-41dc-87b6-0d19b829cbe4"
+    width="700"
+    height="auto"
+  />
+</p>
+
 
 ## **Project Overview**
 
@@ -41,7 +49,13 @@ This section demonstrates **logical backup and recovery** of the MySQL database 
 ---
 
 ## **Oracle Object-Relational Database: Aircraft System**
-![Image](https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086)
+<p align="center">
+  <img 
+    src="https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086"
+    width="700"
+    height="auto"
+  />
+</p>
 
 ### **Aircraft Submodel and Airline Relationship**
 - **A Submodel** is a type of **Model**. (_Abstract Class_)
