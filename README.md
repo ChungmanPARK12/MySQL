@@ -14,8 +14,6 @@ The project focuses on understanding and applying the **core stages of database 
 - Implementing tables and relationships using MySQL  
 - Preparing a basic backup strategy  
 
-Rather than building an application layer, the emphasis of this project is on **database structure, data integrity, and clear documentation**, demonstrating foundational database design principles in a structured and incremental way.
-
 ### 1. Information Background
 
 This section summarises the **database requirements**, including key entities, attributes, and business rules, which provide the basis for the logical and physical design stages.
