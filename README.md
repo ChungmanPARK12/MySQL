@@ -36,8 +36,6 @@ This section covers the **physical implementation** of the database, including i
 
 ### 4. Backup
 
-### 4. Backup
-
 This section demonstrates **logical backup and recovery** of the MySQL database using both **MySQL Workbench** and **command-line tools**.
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/MySQL/Backup)
@@ -58,28 +56,34 @@ This section demonstrates **logical backup and recovery** of the MySQL database 
 
 ### 1. Create Object Types
 
+This section defines **Oracle object types** to model the system using object-relational features such as inheritance, subtypes, and references.
+
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateObject)
 
 ### 2. Create Tables
+
+This section creates **object tables** in Oracle based on the defined object types and contrasts Oracle’s object-relational model with MySQL’s relational approach.
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/CreateTable)
 
 ### 3. Assign Primary & Foreign Keys
 
+This section defines **primary and foreign key constraints** to enforce entity integrity and relationships between Oracle object tables.
+
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/AssignKey)
 
 ### 4. Data Insertion
+
+This section demonstrates **data insertion** into Oracle object-relational tables while preserving primary and foreign key integrity.
+
 
  - **View Code:** [link](https://github.com/ChungmanPARK12/MySQL/tree/766ec6c6c98b89e48fe452c28619d0918198e6b7/Oracle/InsertData)
  
 ## **Project Summary**
 
-This project presents a complete database solution for Southern Airport Maintenance Service using both **MySQL** and **Oracle**.
+This project presents a complete database solution for *Southern Airport Maintenance Service* using both **MySQL** and **Oracle**.
 
 - **MySQL**: Covers logical/physical design, backups, and data insertion.
 - **Oracle**: Demonstrates object-relational design with custom object types and relationships.
 
 It highlights my skills in building structured, scalable databases using both relational and object-oriented approaches.
-
-### Thank you
-Thank you for visiting my github :)
