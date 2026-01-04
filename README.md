@@ -9,12 +9,14 @@
 </p>
 
 
-## **Project Overview**
+## **Overview**
 
-This project was completed as part of a database design and implementation assignment.  
+This learning project was completed as part of a database design and implementation assignment.  
 The objective was to design a **MySQL relational database** for a fictional organisation, *Southern Airport Maintenance Service*, to manage information related to **aircraft**, **technicians**, and **maintenance activities**.
 
-The project focuses on understanding and applying the **core stages of database development**, including:
+**Purpose**
+
+Focuses on understanding and applying the **core stages of database development**, including:
 
 - Analysing system requirements  
 - Designing a logical data model (ERD)  
@@ -48,7 +50,7 @@ Demonstrates **logical backup and recovery** of the MySQL database using both **
 
 ---
 
-## **Oracle Object-Relational Database: Aircraft System**
+## **Oracle Object-Relational Database: Aircraft System(Requirement)**
 <p align="center">
   <img 
     src="https://github.com/user-attachments/assets/4d8b5591-226a-45a5-b87e-ddf7c0456086"
